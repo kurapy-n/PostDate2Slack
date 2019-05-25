@@ -1,5 +1,3 @@
-// SlackApp's Library Key: M3W5Ut3Q39AaIwLquryEPMwV62A3znfOO
-
 function postDate() {
     const today = new Date();
     const todayYearMonthString = Utilities.formatDate(today, 'JST', 'yyyy/MM');
