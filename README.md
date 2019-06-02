@@ -1,5 +1,5 @@
 # PostDate2Slack
-Slackの任意のchannelに半月分の日付をpostするだけのGoogle Apps Script
+[![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
 
 ## Required Slack's Permission Scopes
 - chat:write:bot (or chat:write:user)
