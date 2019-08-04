@@ -1,13 +1,8 @@
 {
   "name": "PostDate2Slack",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)",
   "main": "tslint.js",
-  "dependencies": {
-    "tslint": "^5.16.0",
-    "typescript": "^3.4.5"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/kurapy-n/PostDate2Slack/issues"
   },
-  "homepage": "https://github.com/kurapy-n/PostDate2Slack#readme"
+  "homepage": "https://github.com/kurapy-n/PostDate2Slack#readme",
+  "dependencies": {
+    "@types/google-apps-script": "0.0.55"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.2.1",
+    "tslint": "^5.18.0"
+  }
 }
